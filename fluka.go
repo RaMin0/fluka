@@ -12,5 +12,5 @@ func helloWorld(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", helloWorld)
 	fmt.Println("Listening on port 8080...")
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":3000", nil)
 }
